@@ -8,8 +8,11 @@ Runnig a test:
 * Clone download the repository (i.e., Code-OT--main).
 * Install the library and unzip the downloaded file, Code-OT--main.zip.
 * there will be two folders in the unzipped file:
+  
         * Helix-OT--1-out-of-n-OT
+  
         * Priority-OT--ordered-t-out-of-n-OT
+  
 * Open your terminal and "cd" to one of the folders (e.g., cd /Path_to_Helix-OT--1-out-of-n-OT)
 * Run the following command lines in order:
 
