@@ -32,21 +32,6 @@ vector<vector<mpz_class>> Setup(int number_of_OT, int n, unsigned int bit_size) 
   return random_numbers_collection;
 }
 
-
-// // Fisher-Yates shuffle for random permutation
-// template<typename T>
-// void FisherYatesShuffle(vector<T>& vec) {
-//
-//     random_device rd;
-//     mt19937 g(rd());
-//
-//     for (int i = vec.size() - 1; i > 0; --i) {
-//         uniform_int_distribution<> dis(0, i);
-//         int j = dis(g);
-//         swap(vec[i], vec[j]);
-//     }
-// }
-
 // Function to generate a hash table. It will be used bu Find to fetch elements efficiently
 unordered_map<int, int> createIndexMap(const vector<int>& v) {
   unordered_map<int, int> indexMap;
@@ -296,5 +281,3 @@ int main() {
   return 0;
 }
 
-
-//// g++ -std=c++11 -lgmpxx -lgmp main.cpp -o main
