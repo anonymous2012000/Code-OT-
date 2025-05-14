@@ -4,10 +4,10 @@ Dependency:
 
 * GMP: https://gmplib.org/
 
-Runnig a test: 
-* Clone download the repository (i.e., Code-OT--main).
+Running a test: 
+* Clone the repository (i.e., Code-OT--main).
 * Install the library and unzip the downloaded file, Code-OT--main.zip.
-* there will be two folders in the unzipped file:
+* There will be two folders in the unzipped file:
   
         * Helix-OT--1-out-of-n-OT
   
@@ -21,6 +21,6 @@ Runnig a test:
         ./test
 
 
-In the main file, in each folder, you can change the pramteres for different values of "n", "invocations", and "number of tests". 
+In the main file, in each folder, you can change the prameteres for different values of "n", "invocations", and "number of tests". 
 
 
