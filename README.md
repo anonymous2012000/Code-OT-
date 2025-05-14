@@ -21,6 +21,6 @@ Running a test:
         ./test
 
 
-In the main file, in each folder, you can change the prameteres for different values of "n", "invocations", and "number of tests". 
+In the main file, in each folder, you can change the parameters for different values of "n", "invocations", and "number of tests". 
 
 
